@@ -1,0 +1,112 @@
+.hero-section{
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+.about-me-section{
+    padding: 50px 0;
+    background-color: #fff;
+}
+.portfolio-section{
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+.contact-section{
+    padding: 50px 0;
+    background-color: #fff;
+}
+.main-heading-text{
+    font-size: 32px;
+    font-weight: 800;
+    color: black;
+}
+.heading-text{
+    font-size: 28px;
+    font-weight: 700;
+    color: #17A2B8;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px #77777750;
+}
+.sub-heading-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+.small-heading-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border-bottom: 2px solid #17A2B8;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.paragraph-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #494949;
+    text-align: justify;
+}
+.small-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    text-align: justify;
+}
+.small-details{
+    font-size: 16px;
+    font-weight: 600;
+    color: #494949;
+    text-align: justify;
+    margin-bottom: 0;
+}
+.tech-stack {
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 0;
+}
+.tech-stack li {
+margin: 10px;
+}
+
+.tech-stack-img{
+    width: 45px;
+    margin: 0 10px;
+}
+.about-img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: #00000033 0px 2px 1px -1px, #00000024 0px 1px 1px 0px, #0000001f 0px 1px 3px 0px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.project-carousel{
+    overflow: hidden;
+}
+.project-carousel .slick-slide {
+    margin: 0 25px;
+}
+.project-carousel .slick-list {
+    margin: 0 -25px;
+}
+.custom-card{
+    background-color: #ffffff;
+    box-shadow: #00000033 0px 2px 1px -1px, #00000024 0px 1px 1px 0px, #0000001f 0px 1px 3px 0px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.card-footer{
+    background-color: #fff;
+}
+.contact-item a:hover{
+    color: #17A2B8;
+}
+footer {
+background-color: #f8f9fa;
+padding: 20px 0;
+}
