@@ -18,20 +18,20 @@
     font-size: 32px;
     font-weight: 800;
     color: black;
+    margin-bottom: 16px;
 }
 .heading-text{
     font-size: 28px;
     font-weight: 700;
     color: #17A2B8;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     text-transform: uppercase;
-    text-shadow: 0px 0px 5px #77777750;
 }
 .sub-heading-text{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .small-heading-text{
     font-size: 20px;
@@ -39,43 +39,51 @@
     color: black;
     border-bottom: 2px solid #17A2B8;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     margin-top: 30px;
 }
 .paragraph-text{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #494949;
     text-align: justify;
+    margin-bottom: 16px;
 }
 .small-title{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000000;
     text-align: justify;
+    margin-bottom: 8px;
 }
 .small-details{
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 400;
     color: #494949;
     text-align: justify;
     margin-bottom: 0;
 }
+.banner-img{
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 16px;
+}
 .tech-stack {
-list-style-type: none;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 0px;
 }
 .tech-stack li {
-margin: 10px;
+    margin: 10px;
 }
-
 .tech-stack-img{
     width: 45px;
     margin: 0 10px;
+    margin-bottom: 16px;
 }
 .about-img{
     width: 100%;
@@ -84,6 +92,7 @@ margin: 10px;
     box-shadow: #00000033 0px 2px 1px -1px, #00000024 0px 1px 1px 0px, #0000001f 0px 1px 3px 0px;
     overflow: hidden;
     border-radius: 15px;
+    margin-bottom: 16px;
 }
 .project-carousel{
     overflow: hidden;
@@ -107,6 +116,104 @@ margin: 10px;
     color: #17A2B8;
 }
 footer {
-background-color: #f8f9fa;
-padding: 20px 0;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+@media only screen and (max-width: 992px){
+    .hero-section{
+        padding: 40px 0;
+    }
+    .about-me-section{
+        padding: 40px 0;
+    }
+    .portfolio-section{
+        padding: 40px 0;
+    }
+    .contact-section{
+        padding: 40px 0;
+    }
+    .main-heading-text{
+        font-size: 31px;
+    }
+    .heading-text{
+        font-size: 27px;
+    }
+    .sub-heading-text{
+        font-size: 23px;
+    }
+    .small-heading-text{
+        font-size: 19px;
+    }
+    .paragraph-text{
+        font-size: 15px;
+    }
+    .small-title{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .hero-section{
+        padding: 30px 0;
+    }
+    .about-me-section{
+        padding: 30px 0;
+    }
+    .portfolio-section{
+        padding: 30px 0;
+    }
+    .contact-section{
+        padding: 30px 0;
+    }
+    .main-heading-text{
+        font-size: 30px;
+    }
+    .heading-text{
+        font-size: 26px;
+    }
+    .sub-heading-text{
+        font-size: 22px;
+    }
+    .small-heading-text{
+        font-size: 18px;
+    }
+    .paragraph-text{
+        font-size: 14px;
+    }
+    .small-title{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 576px){
+    .hero-section{
+        padding: 20px 0;
+    }
+    .about-me-section{
+        padding: 20px 0;
+    }
+    .portfolio-section{
+        padding: 20px 0;
+    }
+    .contact-section{
+        padding: 20px 0;
+    }
+    .main-heading-text{
+        font-size: 29px;
+    }
+    .heading-text{
+        font-size: 25px;
+    }
+    .sub-heading-text{
+        font-size: 21px;
+    }
+    .small-heading-text{
+        font-size: 17px;
+    }
+    .paragraph-text{
+        font-size: 13px;
+    }
+    .small-title{
+        font-size: 13px;
+    }
+
 }
